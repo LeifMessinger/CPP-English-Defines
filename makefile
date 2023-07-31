@@ -16,3 +16,6 @@ test.out: test.cpp
 
 test: test.out
 	./test.out
+
+showEquivalent: test.out
+	g++ -dD -E test.cpp | awk '/# 2 "test.cpp" 2/ {flag=1;next} flag'
