@@ -20,3 +20,6 @@ Edit `test.cpp` to play around first.
 Write your own program using the `english_compiled.h` header
 
 Copy `english_compiled.h` to your own project's folder to use it in your own projects. You can rename it to something else, like `english.h` if you want.
+
+
+Type `make showEquivalent` to show what the code looks like in C++ after preprocessing.
