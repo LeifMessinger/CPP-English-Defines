@@ -15,4 +15,10 @@
 
 #define line string
 
+#define boolean bool
+
+#define character char
+
+#define pointer *
+
 #endif

@@ -5,6 +5,8 @@
 //Maybe in the future, we can tell our compilers to throw out undefined tokens and this wouldn't be a problem.
 #include "english_flavor.h"
 
+#include "english_types.h"
+
 //These are all the numbers
 #include "english_numbers.h"
 
